@@ -72,3 +72,39 @@ The `removeWhitespace` function remove all the whitespaces from a string
 #### **`generateRandomString(length: number, haracters: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'): string`**
 
 The `generateRandomString` function generates a random string of a specified length using the specified characters. By default, it uses uppercase letters, lowercase letters, and digits. This function is useful for creating unique identifiers, passwords, or any other string that requires randomness. If no custom characters are provided, it will use the default character set.
+
+### Analysis
+
+#### **`isPalindrome(str: string): boolean`**
+
+The `isPalindrome` function checks if a given string is a palindrome. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).
+
+#### **`wordCount(str: string): number`**
+
+The `wordCount` function counts the number of words in a given string. It ignores spaces and punctuation, treating consecutive sequences of alphanumeric characters as words.
+
+#### **`vowelCount(str: string): number`**
+
+The `vowelCount` function counts the number of vowels (a, e, i, o, u) in a given string, ignoring case.
+
+#### **`consonantCount(str: string): number`**
+
+The `consonantCount` function counts the number of consonants in a given string, ignoring case.
+
+#### **`sentenceCount(str: string): number`**
+
+The `sentenceCount` function counts the number of sentences in a given string based on sentence-ending punctuation (.!?).
+
+#### **`findLongestWord(str: string): string`**
+
+The `findLongestWord` function finds the longest word in a given string. A word is defined as a sequence of characters separated by spaces or punctuation.
+
+#### **`findShortestWord(str: string): string`**
+
+The `findShortestWord` function finds the shortest word in a given string. A word is defined as a sequence of characters separated by spaces or punctuation.
+
+### Validation
+
+#### **`isEmail(email: string): boolean`**
+
+The `isEmail` function checks if the provided string is a valid email address. A valid email address consists of a local part, an '@' symbol, and a domain part, where the local part may contain alphanumeric characters, dots, and other special characters. The domain part must contain at least one dot and cannot start or end with a dot.

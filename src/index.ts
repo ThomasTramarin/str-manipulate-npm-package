@@ -18,5 +18,17 @@ export * from "./functions/remove/removeWhitespace";
 //Generate
 export * from "./functions/generate/generateRandomString";
 
+//Analysis
+export * from "./functions/analysis/isPalindrome";
+export * from "./functions/analysis/wordCount";
+export * from "./functions/analysis/vowelCount";
+export * from "./functions/analysis/consonantCount";
+export * from "./functions/analysis/sentenceCount";
+export * from "./functions/analysis/findLongestWord";
+export * from "./functions/analysis/findShortestWord";
+
+//Validation
+export * from "./functions/validation/isEmail";
+
 
 export * from "./types";
