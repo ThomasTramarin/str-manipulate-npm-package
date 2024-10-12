@@ -1,3 +1,22 @@
-export * from "./functions/reverse";
-export * from "./functions/case";
+//Reverse
+export * from "./functions/reverse/reverseCase";
+export * from "./functions/reverse/reverseCharacters";
+export * from "./functions/reverse/reverseEachWord";
+export * from "./functions/reverse/reverseWords";
+
+//Case
+export * from "./functions/case/camelCase";
+export * from "./functions/case/capitalize";
+export * from "./functions/case/kebabCase";
+export * from "./functions/case/pascalCase";
+export * from "./functions/case/snakeCase";
+export * from "./functions/case/truncate";
+
+//Remove
+export * from "./functions/remove/removeWhitespace";
+
+//Generate
+export * from "./functions/generate/generateRandomString";
+
+
 export * from "./types";
