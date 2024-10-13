@@ -97,7 +97,7 @@ The `generateHexColor` function generates a random hexadecimal color code in the
 
 The `generateLoremIpsum` function generates a random "Lorem Ipsum" text consisting of a specified number of words. By default, it produces 10 words, making it useful for creating placeholder text in applications or web pages.
 
-#### **`isPalindrome(length: number): string`**
+#### **`generateStrongPassword(length: number = 8): string`**
 
 The `generateStrongPassword` function generates a secure random password of the specified length, ensuring it includes at least one character from each of the following categories: uppercase letters, lowercase letters, numbers, and special characters. This function helps create strong passwords that are less predictable and more resistant to guessing attacks.
 
