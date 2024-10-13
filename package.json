@@ -1,6 +1,6 @@
 {
   "name": "str-manipulate",
-  "description": "Functions to manipulate strings",
+  "description": "Package designed to make string manipulation easy and intuitive. Whether you need to reverse strings, convert case formats, generate random strings, validate emails, or analyze text, str-manipulate provides a comprehensive set of functions to meet your needs. Lightweight and easy to use, this package is ideal for any project that requires advanced string manipulation capabilities.",
   "version": "1.2.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -11,7 +11,14 @@
   },
   "keywords": [
     "string manipulation",
-    "string tools"
+    "string tools",
+    "string",
+    "text",
+    "case conversion",
+    "reverse",
+    "formatting",
+    "validation",
+    "generate text"
   ],
   "author": "Thomas Tramarin",
   "license": "MIT",
